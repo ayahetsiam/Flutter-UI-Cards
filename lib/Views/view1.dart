@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_ui_cards/Components/card2.dart';
 import 'package:flutter_ui_cards/Components/card3.dart';
 import 'package:flutter_ui_cards/Components/card4.dart';
+import 'package:flutter_ui_cards/Components/card5.dart';
 import 'package:gap/gap.dart';
 import 'package:flutter_ui_cards/Components/card1.dart';
 
@@ -21,7 +22,9 @@ class View1 extends StatelessWidget {
           Gap(30),
           Card3(),
           Gap(30),
-          Card4()
+          Card4(),
+          Gap(30),
+          Card5(),
         ],
       ),
     );

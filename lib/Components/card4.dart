@@ -10,7 +10,7 @@ class Card4 extends StatelessWidget {
       width: double.infinity,
       clipBehavior: Clip.antiAlias,
       decoration: BoxDecoration(
-        color: Color(0xFFF7F6FA),
+        color: const Color(0xFFF7F6FA),
         borderRadius: BorderRadius.circular(12)
       ),
       child: Row(
@@ -24,10 +24,10 @@ class Card4 extends StatelessWidget {
             ),
             width: 100,
           ),
-          Container(
-            padding: EdgeInsets.all(16),
-            child: const Expanded(
-              child: Text(
+          Expanded(
+            child: Container(
+              padding: const EdgeInsets.all(16),
+              child: const Text(
                 "Constructive and destructive waves",
                 style: TextStyle(
                   fontSize: 16,
