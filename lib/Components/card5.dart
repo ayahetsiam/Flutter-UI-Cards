@@ -13,8 +13,7 @@ class Card5 extends StatelessWidget {
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
           color: const Color(0xFFF7F6FA),
-          borderRadius: BorderRadius.circular(12)
-      ),
+          borderRadius: BorderRadius.circular(12)),
       child: Row(
         children: [
           const Expanded(
@@ -52,14 +51,13 @@ class Card5 extends StatelessWidget {
             width: 28,
             height: 28,
             decoration: BoxDecoration(
-              shape: BoxShape.circle,
-              border: Border.all(
+                shape: BoxShape.circle,
+                border: Border.all(
                   color: Colors.grey,
-                width: 1,
-              )
-            ),
+                  width: 1,
+                )),
             child: const Icon(
-                Icons.remove,
+              Icons.remove,
               color: Colors.black,
             ),
           ),
@@ -84,13 +82,11 @@ class Card5 extends StatelessWidget {
                 border: Border.all(
                   color: Colors.grey,
                   width: 1,
-                )
-            ),
+                )),
             child: const Icon(
               Icons.add,
               color: Colors.black,
             ),
-
           )
         ],
       ),

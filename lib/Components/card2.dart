@@ -9,38 +9,35 @@ class Card2 extends StatelessWidget {
     return Container(
       height: 56,
       width: double.infinity,
-
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(12),
-          color: const Color(0xFFF7F6FA),
+        color: const Color(0xFFF7F6FA),
       ),
       padding: const EdgeInsets.all(16),
       child: const Row(
         children: [
           Icon(
-          Icons.search,
-          color: Color(0xFF2A282F),
-        size: 24,
+            Icons.search,
+            color: Color(0xFF2A282F),
+            size: 24,
           ),
           Gap(8),
           Expanded(
             child: Text(
-                "Search Creator",
+              "Search Creator",
               style: TextStyle(
                   fontWeight: FontWeight.w600,
-                fontSize: 16,
-                fontFamily: "Inter"
-              ),
+                  fontSize: 16,
+                  fontFamily: "Inter"),
             ),
           ),
-        Gap(8),
-        Icon(
-        Icons.keyboard_arrow_right,
-    color: Color(0xFF2A282F),
-    size: 24,
-    ),
-      ],
-        
+          Gap(8),
+          Icon(
+            Icons.keyboard_arrow_right,
+            color: Color(0xFF2A282F),
+            size: 24,
+          ),
+        ],
       ),
     );
   }
