@@ -21,7 +21,7 @@ class Card9 extends StatelessWidget {
           Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Icon(Icons.favorite_border),
+              Icon(Icons.favorite_border, color: Color(0xFFA8A6AC), size: 24),
               Text(
                 "816",
                 style: TextStyle(
@@ -38,7 +38,7 @@ class Card9 extends StatelessWidget {
           Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Icon(Icons.bookmark_border),
+              Icon(Icons.bookmark_border, color: Color(0xFFA8A6AC), size: 24),
               Text(
                 "877",
                 style: TextStyle(
@@ -55,7 +55,7 @@ class Card9 extends StatelessWidget {
           Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Icon(Icons.chat_bubble_outline),
+              Icon(Icons.chat_bubble_outline, color: Color(0xFFA8A6AC), size: 24),
               Text(
                 "185",
                 style: TextStyle(
