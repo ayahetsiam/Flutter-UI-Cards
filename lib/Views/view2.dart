@@ -20,6 +20,8 @@ class View2 extends StatelessWidget {
           Gap(30),
           Card9(),
           Gap(30),
+          Card10(),
+          Gap(30),
         ],
       ),
     );
