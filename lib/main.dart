@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 //import 'package:flutter_ui_cards/Views/view1.dart';
 import 'package:flutter_ui_cards/Views/view2.dart';
+import 'package:flutter_ui_cards/Views/view3.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: View2(),
+      home: View3(),
     );
   }
 }
