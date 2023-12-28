@@ -19,8 +19,9 @@ class Card12 extends StatelessWidget {
           Row(
             children: [
               Icon(Icons.email),
+              Gap(4),
               Text(
-                "Destructive waves",
+                "destructive waves",
                 style: TextStyle(
                   color: Color(0xFF2A282F),
                   fontWeight: FontWeight.w600,

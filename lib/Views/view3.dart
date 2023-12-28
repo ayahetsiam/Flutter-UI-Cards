@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ui_cards/Components/view3Components/card11.dart';
 import 'package:flutter_ui_cards/Components/view3Components/card12.dart';
+import 'package:flutter_ui_cards/Components/view3Components/card13.dart';
 import 'package:gap/gap.dart';
 
 class View3 extends StatelessWidget {
@@ -16,6 +17,8 @@ class View3 extends StatelessWidget {
           Card11(),
           Gap(30),
           Card12(),
+          Gap(30),
+          Card13(),
         ],
       ),
     );
