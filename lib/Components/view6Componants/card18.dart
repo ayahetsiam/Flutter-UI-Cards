@@ -52,10 +52,14 @@ class Card18 extends StatelessWidget {
                 ],
               ),
             ),
-            const Divider(height: 1, color: Colors.grey,),
             Container(
                   padding: const EdgeInsets.all(16),
-                  height: 56,
+                  decoration: const BoxDecoration(
+                    border: Border(top: BorderSide(
+                      color: Colors.grey,
+                      width: 1,
+                    ))
+                  ),
                   child: const Row(
                     children: [
                       Expanded(
